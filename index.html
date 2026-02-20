@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>রমজান গাইড - Ramadan Guide 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Amiri:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background-color: #020617;
+            background-image: 
+                radial-gradient(circle at 50% 0%, rgba(6, 78, 59, 0.4) 0%, transparent 50%),
+                radial-gradient(circle at 100% 100%, rgba(251, 191, 36, 0.05) 0%, transparent 40%),
+                linear-gradient(to bottom, rgba(2, 44, 34, 0.95), rgba(13, 9, 5, 0.98)),
+                url('https://images.unsplash.com/photo-1552554652-9653068e404b?q=80&w=2000&auto=format&fit=crop');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            overflow-x: hidden;
+            color: #fef3c7;
+        }
+        
+        /* Mobile-first responsive text */
+        @media (max-width: 480px) {
+            html {
+                font-size: 14px;
+            }
+        }
+        
+        @media (min-width: 481px) and (max-width: 768px) {
+            html {
+                font-size: 15px;
+            }
+        }
+        
+        .arabic {
+            font-family: 'Amiri', serif;
+        }
+        
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(2, 44, 34, 0.2);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(to bottom, #064e3b, #fbbf24);
+            border-radius: 10px;
+        }
+        
+        /* Mobile scrollbar touch */
+        @media (hover: none) and (pointer: coarse) {
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+        }
+
+        /* Markdown Styling for AI Assistant */
+        .markdown-body h1 { 
+            color: #fbbf24; 
+            font-weight: bold; 
+            font-size: clamp(1.2rem, 5vw, 1.5rem); 
+            margin-bottom: 1rem; 
+        }
+        .markdown-body h2 { 
+            color: #fbbf24; 
+            font-weight: bold; 
+            font-size: clamp(1rem, 4vw, 1.25rem); 
+            margin-bottom: 0.75rem; 
+        }
+        .markdown-body p { 
+            margin-bottom: 1rem; 
+            font-size: clamp(0.875rem, 3vw, 1rem);
+        }
+        .markdown-body ul { 
+            list-style-type: disc; 
+            margin-left: 1.25rem; 
+            margin-bottom: 1rem; 
+        }
+        .markdown-body strong { 
+            color: #f59e0b; 
+            font-weight: bold; 
+        }
+        
+        /* Touch-friendly input elements */
+        input, select, textarea, button {
+            min-height: 44px;
+            min-width: 44px;
+        }
+        
+        /* Better mobile input styling */
+        @media (max-width: 768px) {
+            input, select, textarea {
+                font-size: 16px;
+            }
+        }
+        .markdown-body blockquote { border-left: 4px solid #064e3b; padding-left: 1rem; font-style: italic; margin: 1rem 0; color: #6ee7b7; }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

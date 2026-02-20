@@ -1,0 +1,7 @@
+{
+  "name": "Ramadan Complete Guide 2026",
+  "description": "A comprehensive Islamic application for Ramadan 2026 featuring Hadith, Quran with Bangla meaning, Iftar/Sahari timings for all 64 districts of Bangladesh, Tasbih counter, and an AI-powered Islamic assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
